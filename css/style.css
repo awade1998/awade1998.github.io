@@ -15,6 +15,13 @@ body{
 .current{
   background-color:#005EB8;
 }
+.blue{
+  padding:15px;
+  background: #3366cc;
+  color: #ffffff;
+  margin top: 10px;
+  margin-bottom: 10px;
+}
 
 ul{
   margin: 0;
@@ -132,25 +139,15 @@ article#main-col{
   float: left;
   width: 65%;
   font-size: 16px;
-  background-color: #6699ff;
   margin-top: 10px;
   text-align: center;
-  color: #ffffff;
-}
-article#second-col{
-  float: left;
-  width: 65%;
-  font-size: 16px;
-  background-color: #003399;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   color: #ffffff;
 }
 
+
 footer{
   padding: 20px;
-  margin-top: 10px;
   color: #ffffff;
   text-align:center;
   background-color: #0072CE;
