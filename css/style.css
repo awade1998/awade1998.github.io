@@ -22,6 +22,13 @@ body{
   margin top: 10px;
   margin-bottom: 10px;
 }
+.lightblue{
+  padding:15px;
+  background: #5781d5;
+  color: #ffffff;
+  margin top: 10px;
+  margin-bottom: 10px;
+}
 
 ul{
   margin: 0;
