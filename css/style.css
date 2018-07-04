@@ -38,6 +38,10 @@ ul{
 .branding{
   float: left;
 }
+.textwrap{
+  padding-left:100px;
+  padding-right:100px;
+}
 /*header **/
 header{
   background: #0072CE;
@@ -117,7 +121,7 @@ header img{
   padding: 15px;
   float: left;
   text-align: center;
-  
+
   font-size: 16px;
 
 }
