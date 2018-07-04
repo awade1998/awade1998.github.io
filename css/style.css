@@ -129,6 +129,11 @@ header img{
 #boxes .box img{
   width: 90px;
 }
+#boxes .map{
+  width: 200px ;
+  height: 200px;
+  background-color: yellow;
+}
 #boxes a{
   color: #231f20;
   text-decoration: none;
