@@ -129,7 +129,7 @@ header img{
 #boxes .box img{
   width: 90px;
 }
-#boxes .map{
+.map{
   width: 200px ;
   height: 200px;
   background-color: yellow;
