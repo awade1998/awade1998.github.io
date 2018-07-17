@@ -39,8 +39,9 @@ ul{
   float: left;
 }
 .textwrap{
-  padding-left:100px;
-  padding-right:100px;
+  padding-left:10%;
+  padding-right:10%;
+
 }
 /*header **/
 header{
@@ -114,10 +115,21 @@ header img{
   background-color: #E8EDEE;
 }
 
-#boxes .box{
+#boxes2 .box{
   margin-top: 10px;
   width: 42%;
-  height: 300px;
+  height: 500px;
+  padding: 15px;
+  float: left;
+  text-align: center;
+
+  font-size: 16px;
+
+}
+#boxes1 .box{
+  margin-top: 10px;
+  width: 42%;
+  height: 250px;
   padding: 15px;
   float: left;
   text-align: center;
@@ -126,15 +138,21 @@ header img{
 
 }
 
-#boxes .box img{
+#boxes1 .box img{
   width: 90px;
 }
-.map{
-  width: 200px ;
-  height: 200px;
-  background-color: yellow;
+
+#boxes1 a{
+  color: #231f20;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 }
-#boxes a{
+#boxes2 .box img{
+  width: 90px;
+}
+
+#boxes2 a{
   color: #231f20;
   text-decoration: none;
   text-transform: uppercase;

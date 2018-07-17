@@ -26,7 +26,7 @@
     </header>
 
 
-<section id="boxes">
+<section id="boxes2">
   <div class="container">
     <div class="box">
 
@@ -34,17 +34,24 @@
        <img src="./img/RBsurgery.jpg">
      </a>
       <a href="http://www.roboroughsurgery.org.uk"><h3>roborough surgery</h3></a>
-      <div id="map"></div>
+      <div id="map" style="width:100%;height:300px;background:yellow;"></div>
 
       <script>
         function myMap(){
           var mapOptions = {
-            center: new google.maps.LatLng(50.427, -4.115),
+            center: new google.maps.LatLng(50.427475, -4.1152275),
             zoom: 15,
-            mapTypeId: google.maps.MapTypeId.HYBRID
+            mapTypeId: google.maps.MapTypeId.ROADMAP
           }
+
           var map = new google.maps.Map(document.getElementById('map'),mapOptions);
-        }
+
+        var marker = new google.maps.Marker({
+          position:{lat:50.427475,lng:-4.1152275},
+          map:map
+        });
+      }
+
 
       </script>
 
